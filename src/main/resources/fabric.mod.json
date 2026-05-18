@@ -11,7 +11,7 @@
 		"homepage": "https://modrinth.com/project/litematica-special-tool",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
+	"license": "Apache-2.0",
 	"icon": "assets/litematicaspecialtool/textures/item/LitematicaStick.png",
 	"environment": "*",
 	"entrypoints": {
