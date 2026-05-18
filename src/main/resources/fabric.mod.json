@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "litematicaspecialtool",
+	"version": "${version}",
+	"name": "LitematicaSpecialTool",
+	"description": "This mod adds a special tool for Litematica.",
+	"authors": [
+		"BussinessJohnV"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/litematica-special-tool",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/litematicaspecialtool/textures/item/LitematicaStick.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.businessjohnv.litematicaspecialtoolmod.LitematicaSpecialTool"
+		],
+		"fabric-datagen": [
+			"com.businessjohnv.litematicaspecialtoolmod.LitematicaSpecialToolDataGenerator"
+		]
+	},
+	"mixins": [
+		"litematicaspecialtool.mixins.json"
+	],
+	"client":[
+		"com.businessjohnv.litematicaspecialtoolmod.LitematicaSpecialToolClient"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

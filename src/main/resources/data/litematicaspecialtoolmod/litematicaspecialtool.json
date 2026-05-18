@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "key": {
+    "|": {
+      "item": "minecraft:stick"
+    },
+    "@": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "pattern": [
+    "  |",
+    " @ ",
+    "|  "
+  ],
+  "result": {
+    "item": "litematicaspecialtoolmod:litematicaspecialtool",
+    "count": 1
+  }
+}
